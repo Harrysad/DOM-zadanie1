@@ -1,6 +1,6 @@
 let cities = ['Warsaw', 'Berlin', 'Paris', 'London', 'New York', 'Tokio', 'Moscow'];
 
-let ul = document.createElement('ul');
+let ul = document.createElement('ol');
 
 for (let i = 0; i < cities.length; i++) {
     let li = document.createElement('li');
